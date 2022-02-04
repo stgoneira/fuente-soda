@@ -1,3 +1,20 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+div#contenedor-logotipo {
+    width: 100%;
+}
+
+div#contenedor-logotipo img {
+    float: left;
+    margin-right: 20px;
+}
+
+div#contenedor-logotipo h1 {
+    float: left;
+}
+
 div.columna-1, 
 div.columna-2,
 div.columna-3 {
