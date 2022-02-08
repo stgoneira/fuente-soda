@@ -1,0 +1,23 @@
+{
+  "name": "fuente-soda",
+  "version": "2.0.0",
+  "description": "Sitio web y sistema de administracion fuente soda Suiza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stgoneira/fuente-soda.git"
+  },
+  "author": "Santiago Neira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stgoneira/fuente-soda/issues"
+  },
+  "homepage": "https://github.com/stgoneira/fuente-soda#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}
