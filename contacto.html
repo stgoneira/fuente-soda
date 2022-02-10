@@ -28,6 +28,22 @@
                     Looks good!
                   </div>
                 </div>
+
+                <div class="col-md-6">
+                    <label for="validationServer01" class="form-label">Email</label>
+                    <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationServer02" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+
                 <div class="col-md-12">
                   <label for="validationServer04" class="form-label">Sucursal</label>
                   <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
@@ -40,6 +56,7 @@
                   </div>
                 </div>
                 <div class="col-md-3">
+                    <p>Motivo de contacto:</p>
                     <div class="form-check">
                         <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
                         <label class="form-check-label" for="validationFormCheck2">Felicitación</label>
@@ -55,15 +72,11 @@
                       </div>
                 </div>
                 <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
-                    <label class="form-check-label" for="invalidCheck3">
-                      Agree to terms and conditions
-                    </label>
-                    <div id="invalidCheck3Feedback" class="invalid-feedback">
-                      You must agree before submitting.
+                    <label for="validationTextarea" class="form-label">Mensaje</label>
+                    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                    <div class="invalid-feedback">
+                      Please enter a message in the textarea.
                     </div>
-                  </div>
                 </div>
                 <div class="col-12">
                   <button class="btn btn-primary" type="submit">Submit form</button>
