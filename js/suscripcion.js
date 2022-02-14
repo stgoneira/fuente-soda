@@ -52,11 +52,15 @@ function guardarDatosSuscriptor(nombre, email) {
             console.error("Ocurrió un error al invocar la API de Supabase");
         }
     }).then( data => {
-        console.dir( data );
+        mostrarMensajeExito(data);
     }).catch( err => console.dir(err) ) // se invoca catch() cuando hay un error en la red 
     ;
 }
 
+function mostrarMensajeExito(data){
+    const id = data[0].id;
+    $("#mensajes").addClass("alert alert-success").html("Se ha guardado correctamente su suscripción con el ID #" + id);
+}
 function mostrarMensajeError(){} // Uds. lo implementan 
 function validarNombre(nombre){ return true; } // Uds. lo implementan
 function validarEmail(email){ return true; } // Uds. lo implementan
